@@ -46,7 +46,7 @@ export const translations = {
     nav: { about: 'À propos', formation: 'Formation', skills: 'Compétences', languages: 'Langues', projects: 'Projets', experience: 'Expérience', certifications: 'Certifications', contact: 'Contact' },
     hero: {
       available: "À la recherche d'un stage à partir de mi-juin 2027",
-      kicker: 'ÉLÈVE INGÉNIEURE — GÉNIE LOGICIEL',
+      kicker: 'ÉLÈVE INGÉNIEURE — GÉNIE INFORMATIQUE',
       title: 'Transformer des problèmes complexes en solutions logicielles simples et fiables.',
       bio: "Actuellement en 4ᵉ année à l'ENSA Tétouan, je m'intéresse à la conception de systèmes robustes, à l'architecture logicielle et au développement web. Rigoureuse et motivée, je recherche un stage PFA en ingénierie logicielle pour contribuer à des projets techniques concrets et développer mon expertise au sein d'une équipe professionnelle.",
       cta: 'Voir mes projets',
@@ -61,7 +61,7 @@ export const translations = {
       heading: 'À propos',
       text: "Curieuse et persévérante, je cherche à comprendre en profondeur avant de construire : pourquoi un système est conçu ainsi, quelles contraintes il doit respecter, comment le rendre évolutif. C'est cette approche que j'apporte à chaque projet, qu'il s'agisse de modélisation, de développement ou de résolution de problèmes techniques.",
       formationLabel: 'Formation',
-      formationValue: 'ENSA Tétouan — Génie Logiciel, 4ᵉ année',
+      formationValue: 'ENSA Tétouan — Génie Informatique, 4ᵉ année',
       locationLabel: 'Localisation',
       locationValue: 'Tétouan, Maroc',
     },
@@ -69,7 +69,7 @@ export const translations = {
       heading: 'Formation',
       when: 'En cours',
       title: 'École Nationale des Sciences Appliquées de Tétouan',
-      desc: 'Cycle Ingénieur — Génie Logiciel, 4ᵉ année. Modélisation orientée objet, méthodologies de génie logiciel, bases de données, réseaux et sécurité informatique.',
+      desc: 'Cycle Ingénieur — Génie Informatique, 4ᵉ année. Modélisation orientée objet, méthodologies de génie logiciel, bases de données, réseaux et sécurité informatique.',
     },
     skills: {
       heading: 'Compétences & Technologies',
@@ -91,9 +91,9 @@ export const translations = {
     projects: {
       heading: 'Projets',
       items: {
-        p1: { title: 'Gestion des Crises et Catastrophes', subtitle: 'Modélisation UML', desc: "Modélisation de l'architecture d'un système critique — projet réalisé en binôme dans le cadre du module UML.", bullets: ["Diagrammes de cas d'usage", 'Diagrammes de classes', 'Diagrammes de séquence'], action: '' },
-        p2: { title: 'TaskFlow', subtitle: 'Gestion de tâches', desc: "Application modulaire de gestion de tâches, développée en binôme pour l'infrastructure et le déploiement.", bullets: ['Infrastructure Linux', 'Conteneurisation Docker', 'Déploiement avec Terraform'], action: 'Voir le code' },
-        p3: { title: 'Application WhatsApp', subtitle: 'Messagerie temps réel', desc: 'Messagerie en temps réel développée en binôme dans le cadre du module Java.', bullets: ['Messagerie en temps réel', 'Sockets réseau', 'Interface Java Swing'], action: 'Voir le code' },
+        p1: { title: 'Gestion des Crises et Catastrophes', subtitle: 'Modélisation UML', desc: "Modélisation de l'architecture d'un système critique, réalisée dans le cadre du module UML.", bullets: ["Diagrammes de cas d'usage", 'Diagrammes de classes', 'Diagrammes de séquence'], action: '' },
+        p2: { title: 'TaskFlow', subtitle: 'Gestion de tâches', desc: "Application modulaire de gestion de tâches, conçue avec un accent sur l'infrastructure et le déploiement.", bullets: ['Infrastructure Linux', 'Conteneurisation Docker', 'Déploiement avec Terraform'], action: 'Voir le code' },
+        p3: { title: 'Application WhatsApp', subtitle: 'Messagerie temps réel', desc: 'Messagerie en temps réel développée dans le cadre du module Java.', bullets: ['Messagerie en temps réel', 'Sockets réseau', 'Interface Java Swing'], action: 'Voir le code' },
         p4: { title: 'Simulation de Supermarché', subtitle: 'Simulation en C', desc: 'Simulation transactionnelle en C — projet du module Programmation C.', bullets: ['Simulation transactionnelle', 'Structures de données', 'Gestion mémoire optimisée'], action: '' },
       },
     },
@@ -105,13 +105,13 @@ export const translations = {
       emailLabel: 'Email', phoneLabel: 'Téléphone', locationLabel: 'Localisation',
       form: { name: 'Votre nom', email: 'Votre email', subject: 'Sujet', message: 'Votre message', send: 'Envoyer', sent: 'Merci ! Votre message a bien été envoyé, je vous répondrai rapidement.', error: "L'envoi a échoué. Contactez-moi directement à" },
     },
-    footer: { role: 'Élève ingénieure en Génie Logiciel', rights: 'Tous droits réservés.' },
+    footer: { role: 'Élève ingénieure en Génie Informatique', rights: 'Tous droits réservés.' },
   },
   en: {
     nav: { about: 'About', formation: 'Education', skills: 'Skills', languages: 'Languages', projects: 'Projects', experience: 'Experience', certifications: 'Certifications', contact: 'Contact' },
     hero: {
       available: 'Looking for an internship starting mid-June 2027',
-      kicker: 'SOFTWARE ENGINEERING STUDENT',
+      kicker: 'COMPUTER ENGINEERING STUDENT',
       title: 'Turning complex problems into simple, reliable software solutions.',
       bio: "Currently in my 4th year at ENSA Tétouan, I'm interested in designing robust systems, software architecture and web development. Rigorous and driven, I'm looking for a final-year internship (PFA) in software engineering to contribute to real technical projects and grow my expertise within a professional team.",
       cta: 'See my projects',
@@ -126,7 +126,7 @@ export const translations = {
       heading: 'About',
       text: "Curious and persistent, I like to understand things deeply before building them: why a system is designed a certain way, what constraints it needs to respect, how to make it scalable. That's the approach I bring to every project, whether it's modeling, development, or solving a technical problem.",
       formationLabel: 'Education',
-      formationValue: 'ENSA Tétouan — Software Engineering, 4th year',
+      formationValue: 'ENSA Tétouan — Computer Engineering, 4th year',
       locationLabel: 'Location',
       locationValue: 'Tétouan, Morocco',
     },
@@ -134,7 +134,7 @@ export const translations = {
       heading: 'Education',
       when: 'Ongoing',
       title: 'National School of Applied Sciences of Tétouan',
-      desc: 'Engineering degree — Software Engineering, 4th year. Object-oriented modeling, software engineering methodologies, databases, networks and information security.',
+      desc: 'Engineering degree — Computer Engineering, 4th year. Object-oriented modeling, software engineering methodologies, databases, networks and information security.',
     },
     skills: {
       heading: 'Skills & Technologies',
@@ -156,9 +156,9 @@ export const translations = {
     projects: {
       heading: 'Projects',
       items: {
-        p1: { title: 'Crisis & Disaster Management', subtitle: 'UML Modeling', desc: 'Modeled the architecture of a critical system — pair project for the UML module.', bullets: ['Use case diagrams', 'Class diagrams', 'Sequence diagrams'], action: '' },
-        p2: { title: 'TaskFlow', subtitle: 'Task Management', desc: 'Modular task management application, built in a pair project for infrastructure and deployment.', bullets: ['Linux infrastructure', 'Docker containerization', 'Terraform deployment'], action: 'View code' },
-        p3: { title: 'WhatsApp Application', subtitle: 'Real-time Messaging', desc: 'Real-time messaging app built in a pair project for the Java module.', bullets: ['Real-time messaging', 'Network sockets', 'Java Swing interface'], action: 'View code' },
+        p1: { title: 'Crisis & Disaster Management', subtitle: 'UML Modeling', desc: 'Modeled the architecture of a critical system for the UML module.', bullets: ['Use case diagrams', 'Class diagrams', 'Sequence diagrams'], action: '' },
+        p2: { title: 'TaskFlow', subtitle: 'Task Management', desc: 'Modular task management application, built with a focus on infrastructure and deployment.', bullets: ['Linux infrastructure', 'Docker containerization', 'Terraform deployment'], action: 'View code' },
+        p3: { title: 'WhatsApp Application', subtitle: 'Real-time Messaging', desc: 'Real-time messaging app built for the Java module.', bullets: ['Real-time messaging', 'Network sockets', 'Java Swing interface'], action: 'View code' },
         p4: { title: 'Supermarket Simulation', subtitle: 'C Simulation', desc: 'Transactional simulation in C — project for the C programming module.', bullets: ['Transactional simulation', 'Data structures', 'Optimized memory management'], action: '' },
       },
     },
@@ -170,6 +170,6 @@ export const translations = {
       emailLabel: 'Email', phoneLabel: 'Phone', locationLabel: 'Location',
       form: { name: 'Your name', email: 'Your email', subject: 'Subject', message: 'Your message', send: 'Send', sent: "Thank you! Your message has been sent, I'll get back to you soon.", error: 'Sending failed. Reach me directly at' },
     },
-    footer: { role: 'Software Engineering Student', rights: 'All rights reserved.' },
+    footer: { role: 'Computer Engineering Student', rights: 'All rights reserved.' },
   },
 };
