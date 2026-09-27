@@ -16,7 +16,7 @@ export default function App() {
   const [lang, setLang] = useState(() => localStorage.getItem('portfolio-lang') || 'fr');
   const [sent, setSent] = useState(false);
   const [sendError, setSendError] = useState(false);
-  // Passe à false automatiquement tant que public/photo.jpg n'existe pas
+  // Passe à false automatiquement tant que public/photo.png n'existe pas
   const [hasPhoto, setHasPhoto] = useState(true);
   const [activeId, setActiveId] = useState(null);
 
@@ -144,7 +144,7 @@ export default function App() {
           <div className="logo">
             <span className="avatar">
               {hasPhoto
-                ? <img src="/photo.jpg" alt="" onError={() => setHasPhoto(false)} />
+                ? <img src="/photo.png" alt="" onError={() => setHasPhoto(false)} />
                 : 'CR'}
             </span>
             Chaimaa Racile
@@ -176,10 +176,10 @@ export default function App() {
               <button className="btn ghost" disabled>{t.hero.cv}</button>
             </div>
           </div>
-          {/* Ta photo : place-la dans le dossier public sous le nom photo.jpg, elle s'affiche ici et dans la barre */}
+          {/* Ta photo : place-la dans le dossier public sous le nom photo.png, elle s'affiche ici et dans la barre */}
           <div className="photo-box">
             {hasPhoto
-              ? <img src="/photo.jpg" alt="Chaimaa Racile" onError={() => setHasPhoto(false)} />
+              ? <img src="/photo.png" alt="Chaimaa Racile" onError={() => setHasPhoto(false)} />
               : <span className="mono">CR</span>}
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function App() {
           <div className="footer-id">
             <span className="avatar">
               {hasPhoto
-                ? <img src="/photo.jpg" alt="" onError={() => setHasPhoto(false)} />
+                ? <img src="/photo.png" alt="" onError={() => setHasPhoto(false)} />
                 : 'CR'}
             </span>
             <div>
